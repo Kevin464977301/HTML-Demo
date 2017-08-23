@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			/*大的div(顶部,中间,底部)*/
+			.box{
+				position:relative;
+				width:974px;
+				height:597px;
+				margin:auto;
+				text-align:center;
+			}
+			/*顶部div(左,右上,右下)*/
+			.tops{
+				width:974px;
+				height:104px;
+			}
+			/*顶部左div*/
+			.logo{
+				position:absolute;
+				width:277px;
+				height:103px;
+				background-color:red;
+				margin-top:1px;
+				margin-left:2px;
+			}
+			/*顶部右div*/
+			.right{
+				width:679px;
+				height:103px;
+				margin-left:14px;
+				float:right;
+			}
+			/*顶部右上div*/
+			.to{
+				width:137px;
+				height:49px;
+				background-color:green;
+				margin-right:3px;
+				margin-top:1px;
+				float:right;
+			}
+			/*顶部右下div*/
+			.nav{
+				width:679px;
+				height:46px;
+				background-color:green;
+				margin-right:2px;
+				margin-top:8px;
+				float:right;
+			}
+			/*中间div*/
+			.amongs{
+				width:974px;
+				height:437px;
+				margin-top:10px;
+			}
+			/*中间靠左*/
+			.main-left{
+				position:absolute;
+				width:310px;
+				height:435px;
+				background-color:#ffcc00;
+				margin-left:2px;
+			}
+			/*中间靠右(anmongtop,service,guild)*/
+			.amongright{
+				width:650px;
+				height:435px;
+				float:right;
+				margin-right:2px;
+				border:1px solid red;
+			}
+			/*中右上(among)*/
+			.amongtop{
+				width:650px;
+				height:400px;
+			}
+			/*中央(banner,content,menu)*/
+			.among{
+				position:relative;
+				width:450px;
+				height:400px;
+				float:left;
+			}
+			/*banner*/
+			.banner{
+				width:450px;
+				height:240px;
+				background-color:#3399ff;
+			}
+			/*content*/
+			.content{
+				widht:450px;
+				height:110px;
+				background-color:#3399ff;
+				margin-top:10px;
+			}
+			/*menu*/
+			.menu{
+				width:450px;
+				height:30px;
+				background-color:#3399ff;
+				margin-top:10px;
+			}
+			/*中右小*/
+			.service{
+				width:190px;
+				height:400px;
+				background-color:#cc3399;
+				float:right;
+			}
+			/*中右下*/
+			.guild{
+				width:650px;
+				height:25px;
+				background-color:#339900;
+				margin-top:10px;
+			}
+			.footer{
+				width:970px;
+				height:35px;
+				background-color:#000099;
+				margin-left:2px;
+				margin-top:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--整个页面-->
+		<div class="box">
+			<!--顶部-->
+			<div class="tops">
+				<div class="logo">logo</div>
+				<!--顶部右-->
+				<div class="right">
+					<!--顶右上-->
+					<div class="to">to</div>
+					<!--顶右下-->
+					<div class="nav">nav</div>
+				</div>
+			</div>
+			<!--中间-->
+			<div class="amongs">
+				<!--中左-->
+				<div class="main-left">main-left:310X435</div>
+				<!--中右大-->
+				<div class="amongright">
+					<!--中右上-->
+					<div class="amongtop">
+						<!--中右小-->
+						<div class="service">service:190X400</div>
+						<!--中央-->
+						<div class="among">
+							<div class="banner">banner:450X240</div>
+							<div class="content">content:450X110</div>
+							<div class="menu">menu:450X30</div>
+						</div>
+					</div>
+					<!--中右下-->
+					<div class="guild">guild:650X25</div>
+				</div>
+			</div>
+			<!--底部-->
+			<div class="footer">footer:970X35</div>
+		</div>
+	</body>
+</html>

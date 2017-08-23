@@ -1,0 +1,1732 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+input{border:0;outline:none;}
+a img{border:0;}
+html,body{width:100%;}
+body{font-size:12px;}
+.box{
+	width:100%;
+	height:100vh;
+}
+/*=======================================================================================================*/
+/*===============顶部==================*/
+.top{
+	width:100%;
+	height:65px;
+}
+.top-logo{
+	position:relative;
+	width:1180px;
+	height:65px;
+	margin:auto;
+}
+.top-logo>a{
+	width:126px;
+	height:43px;
+	display:block;
+	padding-top:11px;
+}
+/*===============搜索框==================*/
+.search{
+	position:absolute;
+	width:380px;
+	height:28px;
+	top:18px;
+	left:170px;
+	border:1px solid #a4cbff;
+	overflow:hidden;
+	border-radius:4px;
+}
+.search input{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:380px;
+	height:28px;
+	padding-left:5px;
+	padding-right:45px;
+	outline:none;
+	border:none;
+}
+#search-btn{
+	position:absolute;
+	width:42px;
+	height:28px;
+	right:0;
+	background:#a4cbff;
+	border:0;
+	outline:none;
+}
+.search:hover{border:1px solid #2b82f4;}
+.search #search-btn:active{background:#2b82f4;}
+#search-btn i:active{
+	background:url(images/un_header_footer20160610.png) no-repeat -66px -635px;
+}
+#search-btn i{
+	width:14px;
+	height:14px;
+	margin-left:14px;
+	display:block;
+	background:url(images/search.png) no-repeat;
+}
+/*===============顶部右侧语言和客服中心==================*/
+.top-bar{
+	position:absolute;
+	width:430px;
+	height:40px;
+	top:13px;
+	right:0;
+}
+/*==========语言区域=============*/
+.top-right{
+	float:left;
+	width:120px;
+	height:28px;
+	border:1px solid #fff;
+}
+.top-right>li{
+	margin-top:5px;
+}
+.li-span{display:block;margin-left:10px;}
+/*==========语言Global区域===========*/
+.li-span>.lang-p{
+	width:90px;
+	height:16px;
+	display:block;
+	padding-left:20px;
+	background:url(images/un_header_footer20160610.png) no-repeat -64px 0;
+}
+/*==========向下图标===========*/
+.li-span .arrow{
+	width:7px;
+	height:4px;
+	float:right;
+	margin-top:-10px;
+	padding-right:5px;
+	vertical-align:middle;
+	background:url(images/un_header_footer20160610.png) no-repeat -63px -260px;
+}
+/*==========隐藏语言区域===========*/
+.bar{
+	position:absolute;
+	width:158px;
+	height:349px;
+	left:0px;
+	top:29px;
+	border:1px solid #b8b8b8;
+	background:#fff;
+	display:none;
+	z-index:9;
+	box-shadow:0 0 0 2px #e4e7eb;
+}
+.bar-list>li{
+	float:left;
+	width:158px;
+	height:28px;
+	line-height:28px;
+	border-top:1px dashed #b8b8b8;
+}
+.bar-list .first-li{border-top:1px solid #b8b8b8;}
+/*==========设置语言图标============*/
+#fourth>i{
+	width:57px;
+	height:13px;
+	float:left;
+	margin-left:5px;
+	margin-top:8px;
+}
+#first>i,#second>i,#third>i,#fifth>i,#sixth>i,
+#seventh>i,#eighth>i,#ninth>i,#tenth>i,#eleventh>i,#twelfth>i{
+	width:19px;
+	height:13px;
+	float:left;
+	margin-left:5px;
+	margin-top:8px;
+}
+#first>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -319px;}
+#second>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -319px;}
+#third>i{background:url(images/un_header_footer20160610.png) no-repeat -61px -471px;}
+#fourth>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -452px;}
+#fifth>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -395px;}
+#sixth>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -376px;}
+#seventh>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -357px;}
+#eighth>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -338px;}
+#ninth>i{background:url(images/un_header_footer20160610.png) no-repeat -61px -506px;}
+#tenth>i{background:url(images/un_header_footer20160610.png) no-repeat -61px -488px;}
+#eleventh>i{background:url(images/un_header_footer20160610.png) no-repeat -61px -523px;}
+#twelfth>i{background:url(images/un_header_footer20160610.png) no-repeat 0 -39px;}
+/*=========字体大小和颜色等==========*/
+.bar-list li>a{
+	color:#000;
+	font-size:13px;
+	padding-left:5px;
+}
+/*=======鼠标经过变色=======*/
+.bar-list>li:hover{
+	background:#f1f1f1;
+}
+/*=======鼠标经过弹出下选框=======*/
+.top-right:hover{box-shadow:0 0 0 2px #e4e7eb;border:1px solid #b8b8b8;}
+.top-right:hover .bar{display:block;}
+#small{
+	position:absolute;
+	width:120px;
+	height:5px;
+	background:#fff;
+	top:27px;
+	z-index:10;
+}
+/*=======客服中心=======*/
+.service{
+	float:left;
+	width:110px;
+	height:28px;
+}
+.service li>a{
+	width:100px;
+	height:16px;
+	display:block;
+	text-align:center;
+	color:#000;
+	margin-top:5px;
+	margin-left:5px;
+	border-left:1px solid #b8b8b8;
+	border-right:1px solid #b8b8b8;
+}
+/*=======免境内长话费电话=======*/
+.phone{
+	width:135px;
+	height:28px;
+	float:left;
+	border:1px solid #fff;
+}
+.phone-span{
+	display:block;
+}
+.phone-span>p{
+	width:135px;
+	height:16px;
+	display:block;
+	margin-left:5px;
+	margin-top:4px;
+}
+.phone-span p>span{color:#0066cc;}
+.phone-span .arrow{
+	width:7px;
+	height:4px;
+	float:right;
+	margin-top:-10px;
+	padding-right:5px;
+	vertical-align:middle;
+	background:url(images/un_header_footer20160610.png) no-repeat -63px -260px;
+}
+.phone-div{
+	width:188px;
+	height:84px;
+	position:absolute;
+	top:28px;
+	left:179px;
+	background:#fff;
+	border:1px solid #b8b8b8;
+	box-shadow:0 0 0 2px #e4e7eb;
+	display:none;
+	z-index:9;
+}
+.phone-list>li{
+	width:188px;
+	height:28px;
+	line-height:28px;
+}
+.phoneOne span{padding-left:79px;}
+.phoneTwo span{padding-left:56px;}
+.phoneThree span{padding-left:44px;}
+.bluespan>a{color:#0066cc;}
+.whites{
+	position:absolute;
+	width:135px;
+	height:5px;
+	background:#fff;
+	top:26px;
+	z-index:10;
+}
+.phone-list li:hover{
+	background:#f1f1f1;
+}
+.phone:hover{box-shadow:0 0 0 2px #e4e7eb;border:1px solid #b8b8b8;}
+.phone:hover .phone-div{display:block;}
+/*=======APP下载=======*/
+.contact,.weixin{width:30px;height:28px;float:left;}
+.contact li>a{
+	width:11px;
+	height:17px;
+	display:block;
+	margin-top:5px;
+	margin-left:9px;
+	background:url(images/un_header_footer20160610.png) no-repeat 0 -56px;
+}
+.weixin li>a{
+	width:21px;
+	height:16px;
+	display:block;
+	margin-top:6px;
+	margin-left:10px;
+	background:url(images/un_header_footer20160610.png) no-repeat -20px -56px;
+}
+.download,.scan{
+	width:154px;
+	height:216px;
+	position:absolute;
+	top:33px;
+	left:300px;
+	background:#fff;
+	border:1px solid #b8b8b8;
+	box-shadow:0 0 0 2px #e4e7eb;
+	display:none;
+	z-index:11;
+}
+.download>i,.scan>i{
+	width:154px;
+	height:140px;
+	display:block;
+}
+.download i>img,.scan i>img{
+	width:112px;
+	height:112px;
+	padding-top:10px;
+	padding-left:21px;
+}
+.download p,.scan p{
+	width:154px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	color:#3882e5;
+}
+.download .app{
+	color:#000;
+	background:#f0f0f0;
+}
+.scan .app{color:#000;}
+.little,.petty{
+	width:13px;
+	height:9px;
+	position:absolute;
+	display:none;
+	background:url(images/un_header_footer20160610.png) no-repeat 0 -266px;
+}
+.little{top:22px;left:376px;}
+.petty{top:22px;left:412px;}
+.contact:hover li>a{
+	background:url(images/un_header_footer20160610.png) no-repeat 0 -78px;
+}
+.contact:hover .download,.contact:hover .little{
+	display:block;
+}
+.weixin:hover li>a{
+	background:url(images/un_header_footer20160610.png) no-repeat -20px -78px;
+}
+.weixin:hover .scan,.weixin:hover .petty{
+	display:block;
+}
+/*=======================================================================================================*/
+/*===============顶部导航栏==================*/
+.navs{
+	width:100%;
+	height:82px;
+}
+.nav{
+	width:100%;
+	height:40px;
+	background:#2577e3;
+}
+.nav-ul{
+	width:1180px;
+	height:40px;
+	margin:auto;
+	position:relative;
+}
+/*=======li=======*/
+.nav-ul>li{
+	float:left;
+	height:40px;
+}
+.nav-ul .fack{
+	width:1px;
+	height:16px;
+	margin-top:12px;
+	background:#1d67dd;
+}
+/*=======li>a=======*/
+.nav-ul li>a{
+	float:left;
+	font-size:15px;
+	line-height:40px;
+	text-align:center;
+	padding:0 8px;
+	color:#fff;
+}
+.One{width:46px;height:40px;background:#0a56bb;}
+/*=======li>i=======*/
+.nav-ul li>i{
+	width:7px;
+	height:4px;
+	float:left;
+	margin-top:18px;
+	padding-right:3px;
+	background:url(images/un_header_footer20160610.png) no-repeat -44px -264px;
+}
+/*====================Two下选框=====================*/
+.Two-div{
+	width:1179px;
+	height:35px;
+	position:absolute;
+	top:40px;
+	left:0;
+	background:#fff;
+	border-left:1px solid #2577e3;
+	border-right:1px solid #2577e3;
+	border-bottom:1px solid #2577e3;
+	display:none;
+	z-index:11;
+}
+.Two-div .Two-ul>li{
+	height:15px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	margin-top:10px;
+	padding-left:10px;
+	border-right:1px solid #cccccc;
+}
+.Two-ul li>a{
+	margin-top:-13px;
+	color:#333333;
+}
+.Two-p>a{
+	float:right;
+	height:16px;
+	font-size:15px;
+	padding-top:8px;
+	padding-right:10px;
+}
+.Two-p a>i{
+	float:left;
+	width:16px;
+	height:16px;
+	padding-right:5px;
+	background:url(images/un_icon_index_type20170111.png)no-repeat -26px 0;
+}
+.trigonTwo,.trigonThree,.trigonFour,.trigonFive,.trigonSix,.trigonSeven,.trigonEight,
+.trigonNine,.trigonTen,.trigonEleven,.trigonTwelve,.trigonThirteen,.trigonSixteen{
+	width:8px;
+	height:5px;
+	position:absolute;
+	top:35px;
+	display:none;
+	background:url(images/un_header_footer20160610.png) no-repeat -44px -259px;
+}
+.trigonTwo{left:65px;}
+.trigonThree{left:122px;}
+.trigonFour{left:180px;}
+.trigonFive{left:237px;}
+.trigonSix{left:300px;}
+.trigonSeven{left:366px;}
+.trigonEight{left:422px;}
+.trigonNine{left:480px;}
+.trigonTen{left:537px;}
+.trigonEleven{left:600px;}
+.trigonTwelve{left:673px;}
+.trigonThirteen{left:737px;}
+.trigonSixteen{left:919px;}
+/*=======================鼠标经过事件=========================*/
+.Two:hover,.Three:hover,.Four:hover,.Five:hover,.Six:hover,.Seven:hover,
+.Eight:hover,.Nine:hover,.Ten:hover,.Eleven:hover,.Twelve:hover,.Thirteen:hover,
+.Fourteen:hover,.Fifteen:hover,.Sixteen:hover{
+	background:#0a56bb;
+}
+.Two-p>a:hover{color:#0066cc;}
+.Two-ul li>a:hover{color:#0066cc;}
+.Two:hover .trigonTwo,.Two:hover .Two-div,
+.Three:hover .trigonThree,.Three:hover .Two-div,
+.Four:hover .trigonFour,.Four:hover .Two-div,
+.Five:hover .trigonFive,.Five:hover .Two-div,
+.Six:hover .trigonSix,.Six:hover .Two-div,
+.Seven:hover .trigonSeven,.Seven:hover .Two-div,
+.Eight:hover .trigonEight,.Eight:hover .Two-div,
+.Nine:hover .trigonNine,.Nine:hover .Two-div,
+.Ten:hover .trigonTen,.Ten:hover .Two-div,
+.Eleven:hover .trigonEleven,.Eleven:hover .Two-div,
+.Twelve:hover .trigonTwelve,.Twelve:hover .Two-div,
+.Thirteen:hover .trigonThirteen,.Thirteen:hover .Two-div,
+.Sixteen:hover .trigonSixteen,.Sixteen:hover .Two-div{
+	display:block;
+}
+/*=============登录注册===============*/
+.Seventeen{position:relative;}
+.enroll{
+	width:160px;
+	height:40px;
+	float:right;
+	margin-left:65px;
+	background:#ff9913;
+}
+.enroll-p{
+	width:160px;
+	height:20px;
+	float:left;
+}
+.enroll-p>i{
+	float:left;
+	width:12px;
+	height:14px;
+	margin-top:4px;
+	margin-left:5px;
+	background:url(images/un_header_footer20160610.png) no-repeat -68px -183px;
+}
+.enroll-p>a{
+	float:left;
+	color:#fff;
+	font-size:12px;
+	line-height:20px;
+	padding-top:1px;
+	padding-left:5px;
+}
+.enroll-pp>a{
+	color:#fff;
+	font-size:14px;
+	padding-left:5px;
+}
+.enroll-pp>i{
+	float:right;
+	width:7px;
+	height:4px;
+	padding-right:85px;
+	margin-top:7px;
+	background:url(images/un_header_footer20160610.png) no-repeat -44px -264px;
+}
+.enroll p>a:hover{text-decoration:underline;}
+.loging{
+	position:absolute;
+	width:159px;
+	height:102px;
+	top:40px;
+	left:65px;
+	background:#fff;
+	border:1px solid #c3c3c3;
+	box-shadow:0 0 2px 1px #e4e7eb;
+	display:none;
+	z-index:12;
+}
+.loging .loginOne{
+	display:block;
+	width:129px;
+	height:33px;
+	border:1px solid #d5790a;
+	border-radius:4px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:14px;
+	background:#ff9913;
+	margin-bottom:10px;
+}
+.loging .loginOne>a{
+	line-height:33px;
+	font-size:19px;
+	color:#fff;
+}
+.loginTwo>a{
+	color:#0066cc;
+	font-size:12px;
+	line-height:20px;
+	padding-left:14px;
+}
+.loginTwo>a:hover{text-decoration:underline;}
+.loginOne:hover{background:#ff8843;}
+.Seventeen:hover .loging{display:block;}
+/*=======================================================================================================*/
+/*===============第三排导航==================*/
+.nav-bom{
+	width:100%;
+	height:42px;
+	background:#fff;
+}
+.nav-bom-ul{
+	width:1180px;
+	height:42px;
+	margin:auto;
+	position:relative;
+}
+.nav-bom-ul li{float:left;margin-top:12px;margin-right:20px;}
+.nav-bomOne p{
+	display:block;
+	width:95px;
+	height:22px;
+	color:#fff;
+	margin-top:-2px;
+	line-height:22px;
+	text-align:center;
+	border-radius:2px;
+	background:#2577e3;
+}
+.nav-bomOne>i{
+	position:absolute;
+	display:block;
+	width:4px;
+	height:8px;
+	top:17px;
+	left:95px;
+	background:url(images/un_header_footer20160610.png) no-repeat -26px -260px;
+}
+/*=======================设置图片=========================*/
+.nav-bomTwo>i{background:url(images/un_icon_index_type20170111.png) no-repeat -26px 0;}
+.nav-bomThree>i{background:url(images/un_icon_index_type20170111.png) no-repeat;}
+.nav-bomFour>i{float:left;width:17px;height:15px;background:url(images/un_icon_index_type20170111.png) no-repeat -130px 0;}
+.nav-bomFive>i{float:left;width:14px;height:16px;background:url(images/un_icon_index_type20170111.png) no-repeat -52px 0;}
+.nav-bomSix>i{background:url(images/un_icon_index_type20170111.png) no-repeat -26px -56px;}
+.nav-bomSeven>i{float:left;width:18px;height:16px;background:url(images/un_icon_index_type20170111.png) no-repeat -103px -26px;}
+.nav-bomEight>i{background:url(images/un_icon_index_type20170111.png) no-repeat -26px -26px;}
+.nav-bomNine>i{background:url(images/un_icon_index_type20170111.png) no-repeat 0 -52px;}
+.nav-bomTen>i{float:left;width:14px;height:16px;background:url(images/un_icon_index_type20170111.png) no-repeat -78px -26px;}
+.nav-bomEleven>i{float:left;width:16px;height:13px;background:url(images/un_icon_index_type20170111.png) no-repeat -130px -27px;}
+.nav-bomTwelve>i{float:left;width:16px;height:14px;background:url(images/un_icon_index_type20170111.png) no-repeat -24px -80px;}
+.nav-bomTwo>i,.nav-bomThree>i,.nav-bomSix>i,.nav-bomEight>i,.nav-bomNine>i{
+	float:left;
+	width:16px;
+	height:16px;
+}
+.nav-bom-ul li>a{padding-left:5px;color:#666666;}
+.nav-bom-ul li>a:hover{color:#0066cc;}
+/*=======================================================================================================*/
+/*===============大背景图(广告图)==================*/
+.advert{
+	width:100%;
+	height:340px;
+	background:url(images/70070i0000009cix.jpg) no-repeat;
+}
+/*===============大背景图中的搜索区域左侧==================*/
+.advert-ul{
+	width:90px;
+	height:299px;
+	position:relative;
+	top:20px;
+	left:210px;
+	background:#2577e3;
+}
+.advert-ul>li{
+	width:90px;
+	height:42px;
+	line-height:42px;
+}
+.advert-ul li>a{
+	display:block;
+	margin-left:14px;
+	color:#fff;
+	font-size:15px;
+}
+.advert-ul>.dasheds{width:70px;height:0;border-bottom:1px dashed #fff;margin:auto;}
+.advert-hotel>i{float:left;width:4px;height:42px;background:#ff9915;}
+.advert-hotel{background:#fff;}
+.advert-ul .advert-hotel>a{color:#2577e3;}
+.li-i{float:left;width:4px;height:42px;border:0;background:#ff9915;display:none;}
+/*=======================鼠标经过事件=========================*/
+.advert-ticket:hover .li-i,.advert-free:hover .li-i,.advert-tour:hover .li-i,
+.advert-train:hover .li-i,.advert-car:hover .li-i,.advert-entrance:hover .li-i{display:block;}
+.advert-ticket:hover,.advert-free:hover,.advert-tour:hover,
+.advert-train:hover,.advert-car:hover,.advert-entrance:hover{background:#fff;}
+.advert-ticket:hover a,.advert-free:hover a,.advert-tour:hover a,
+.advert-train:hover a,.advert-car:hover a,.advert-entrance:hover a{color:#2577e3;}
+/* advert-ticket
+advert-free
+advert-tour
+advert-train
+advert-car
+advert-entrance
+ */
+
+
+/*===============大背景图中的搜索区域右侧==================*/
+.hotel-div{
+	width:491px;
+	height:299px;
+	position:absolute;
+	top:0;
+	left:90px;
+	background:#fff;
+}
+.advert-hotel-div{
+	width:491px;
+	height:42px;
+}
+.advert-hotel-ul{
+	width:452px;
+	height:27px;
+	float:left;
+	margin-top:15px;
+	margin-left:20px;
+	border-bottom:2px solid #c4c4c4;
+	text-align:center;
+}
+.advert-hotel-ul>li{
+	position:relative;
+	float:left;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	margin-right:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.advert-hotel-ul li>a{
+	font-size:13px;
+	font-weight:900;
+	color:#000;
+	margin-left:0;
+}
+.advert-hotel-ul .advert-hotel-liOne>a{color:#2577e3;}
+.advert-hotel-liOne{border-bottom:2px solid #2577e3;}
+.advert-hotel-liOne>i{
+	position:absolute;
+	width:7px;
+	height:4px;
+	top:29px;
+	left:28px;
+	background:url(images/un_header_footer20160610.png) no-repeat -23px -264px;
+}
+.advert-hotel-liTwo>i,.advert-hotel-liThree>i,.advert-hotel-liFour>i,.advert-hotel-liFive>i{
+	position:absolute;
+	width:7px;
+	height:4px;
+	top:29px;
+	display:none;
+	background:url(images/un_header_footer20160610.png) no-repeat -23px -264px;
+}
+.advert-hotel-liTwo>i{left:28px;}
+.advert-hotel-liThree>i{left:28px;}
+.advert-hotel-liFour>i{left:32px;}
+.advert-hotel-liFive>i{left:45px;}
+/*=======================标题鼠标事件========================*/
+.advert-hotel-ul>li:active{border-bottom:2px solid #2577e3;}
+.advert-hotel-liTwo:active i,.advert-hotel-liThree:active i,.advert-hotel-liFour:active i,
+.advert-hotel-liFive:active i{display:block;}
+.advert-hotel-liTwo:hover a,.advert-hotel-liThree:hover a,
+.advert-hotel-liFour:hover a,.advert-hotel-liFive:hover a{color:#2577e3;}
+/*=======================文本输入框区域========================*/
+.hotel-ul-div{
+	width:491px;
+	height:237px;
+	margin-top:20px;
+}
+.hotel-ul-div>div{
+	width:491px;
+	height:30px;
+	margin-bottom:15px;
+}
+.hotel-div .hotel-ul-div div>a{
+	float:left;font-size:14px;line-height:30px;margin-left:20px;
+}
+
+/* =====第一排和第四排====== */
+.hotel-ul-divOne div,.hotel-ul-divFour div{
+	float:left;
+	width:385px;
+	height:28px;
+	margin-left:23px;
+	border:1px solid #bbbbbb;
+}
+.hotel-ul-divOne div>input,.hotel-ul-divFour div>input{
+	float:left;
+	width:380px;
+	height:28px;
+	padding-left:5px;
+}
+/* =====第二排====== */
+.hotel-ul-divTwo .divTwo-div{
+	width:235px;
+	height:28px;
+	float:left;
+}
+.divTwo-div>div{
+	float:left;
+	width:148px;
+	height:28px;
+	margin-left:9px;
+	border:1px solid #bbbbbb;
+}
+.divTwo-div input{
+	float:left;
+	width:143px;
+	height:28px;
+	padding-left:5px;
+}
+/* =====第三排====== */
+.hotel-ul-divThree div{
+	float:left;
+	width:148px;
+	height:28px;
+	margin-left:9px;
+	border:1px solid #bbbbbb;
+}
+.hotel-ul-divThree div>select{
+	float:left;
+	width:148px;
+	height:28px;
+	border:0;
+}
+/* =====第五排====== */
+.hotel-ul-div button{
+	height:30px;
+	width:100px;
+	margin-left:372px;
+	background:#ffb000;
+	border:1px solid #e77c00;
+	border-radius:4px;
+	outline:none;
+	box-shadow:0 0 1px 1px #e77c00;
+}
+.hotel-ul-div button>a{font-size:16px;color:#fff;line-height:30px;}
+.hotel-ul-div button:hover{background:#f79700;}
+/*=======================================海外酒店hover出div============================================*/
+.ticket-div{
+	width:491px;
+	height:299px;
+	position:absolute;
+	top:0;
+	left:90px;
+	background:#fff;
+	display:none;
+}
+.ticket-divOne{
+	width:491px;
+	height:42px;
+}
+.ticket-divOne-ul{
+	width:452px;
+	height:27px;
+	float:left;
+	margin-top:15px;
+	margin-left:20px;
+	border-bottom:2px solid #c4c4c4;
+	text-align:center;
+}
+.ticket-divOne-ul>li{
+	position:relative;
+	float:left;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	margin-right:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.ticket-divOne-ul li>h6{font-size:13px;}
+.ticket-divOne-liTwo{border-bottom:2px solid #2577e3;}
+.ticket-divOne-liTwo>.ticket-u{
+	position:absolute;
+	width:7px;
+	height:4px;
+	top:29px;
+	left:28px;
+	background:url(images/un_header_footer20160610.png) no-repeat -23px -264px;
+}
+.ticket-divOne-liOne>.ticket-u,.ticket-divOne-liThree>.ticket-u,
+.ticket-divOne-liFour>.ticket-u,.ticket-divOne-liFive>.ticket-u{
+	position:absolute;
+	width:7px;
+	height:4px;
+	top:29px;
+	display:none;
+	background:url(images/un_header_footer20160610.png) no-repeat -23px -264px;
+}
+.ticket-divOne-liOne>.ticket-u{left:28px;}
+.ticket-divOne-liThree>.ticket-u{left:28px;}
+.ticket-divOne-liFour>.ticket-u{left:32px;}
+.ticket-divOne-liFive>.ticket-u{left:45px;}
+/*====hover时h6字体变色===*/
+.ticket-divOne-liOne:hover h6,.ticket-divOne-liTwo:hover h6,.ticket-divOne-liThree:hover h6,
+.ticket-divOne-liFour:hover h6,.ticket-divOne-liFive:hover h6{color:#2577e3;}
+/*========hover时li的下边框变色==========*/
+.ticket-divOne-liOne:hover,.ticket-divOne-liTwo:hover,.ticket-divOne-liThree:hover,
+.ticket-divOne-liFour:hover,.ticket-divOne-liFive:hover{border-bottom:2px solid #2577e3;}
+/*========hover时li的下边框上增加倒三角==========*/
+.ticket-divOne-liOne:hover .ticket-u,.ticket-divOne-liThree:hover .ticket-u,
+.ticket-divOne-liFour:hover .ticket-u,.ticket-divOne-liFive:hover .ticket-u{
+	display:block;
+}
+/*=================文本区域====================*/
+.ticket-divTwo{
+	width:491px;
+	height:237px;
+	margin-top:20px;
+}
+.ticket-divTwo>div{
+	width:491px;
+	height:30px;
+	margin-bottom:15px;
+}
+.ticket-divTwo div>p{
+	float:left;font-size:14px;line-height:30px;margin-left:20px;
+}
+.ticket-divTwo-One div>input,.ticket-divTwo-Four div>input{
+	float:left;
+	width:380px;
+	height:28px;
+	padding-left:5px;
+}
+.ticket-divTwo-One>div,.ticket-divTwo-Four>div{
+	float:left;
+	width:385px;
+	height:28px;
+	margin-left:23px;
+	border:1px solid #bbbbbb;
+}
+.ticket-divTwo-Two .zufang{
+	width:235px;
+	height:28px;
+	float:left;
+}
+.zufang>div{
+	float:left;
+	width:148px;
+	height:28px;
+	margin-left:9px;
+	border:1px solid #bbbbbb;
+}
+.zufang div>input{
+	float:left;
+	width:143px;
+	height:28px;
+	padding-left:5px;
+}
+.tiket-xiala{
+	float:left;
+	width:148px;
+	height:28px;
+	margin-left:9px;
+	border:1px solid #bbbbbb;
+}
+.tiket-xiala>select{
+	float:left;
+	width:148px;
+	height:28px;
+	border:0;
+}
+.ticket-divTwo button{
+	height:30px;
+	width:100px;
+	margin-left:372px;
+	background:#ffb000;
+	border:1px solid #e77c00;
+	border-radius:4px;
+	outline:none;
+	box-shadow:0 0 1px 1px #e77c00;
+}
+.ticket-divTwo button>p{font-size:16px;color:#fff;line-height:30px;}
+.ticket-divTwo button:hover{background:#f79700;}
+.advert-ticket:hover .ticket-div{display:block;}
+.advert-hotel-liTwo:hover .ticket-div{display:block;top:-15px;left:-87px;}
+/*============================================内容区域=================================================*/
+.sections{
+	width:100%;
+	height:2621px;
+	background:#f6f6f6;
+}
+/*=========特卖汇等框架=========*/
+.special,.overseas-hotel{width:100%;height:457px;}
+.international{width:100%;height:464px;}
+.rentalcar,.localfun{width:100%;height:286px;}
+.travel{width:100%;height:221px;}
+/*=========特卖汇等外导航=========*/
+.special-nav,.overseas-nav,.international-nav,.rentalcar-nav,.localfun-nav,.travel-nav{
+	width:1178px;
+	height:64px;
+	margin:auto;
+}
+.special-nav-ul,.overseas-nav-ul,.international-nav-ul,.rentalcar-nav-ul,.localfun-nav-ul,.travel-nav-ul{
+	float:left;
+	width:1178px;
+	height:30px;
+	margin-top:35px;
+}
+.special-nav-ul>li,.overseas-nav-ul>li,.international-nav-ul>li,
+.rentalcar-nav-ul>li,.localfun-nav-ul>li,.travel-nav-ul>li{
+	float:left;
+	position:relative;
+	margin-right:30px;
+	line-height:30px;
+	font-size:15px;
+}
+.special-nav-ul li>a,.overseas-nav-ul li>a,.international-nav-ul li>a,.rentalcar-nav-ul li>a,
+.localfun-nav-ul li>a,.travel-nav-ul li>a{color:#000;}
+
+.special-nav-ul>a,.international-nav-ul>a{
+	float:right;
+	color:#3983e4;
+	margin-top:10px;
+}
+/*ul下a的i标签*/
+.special-nav-ul a>.special-ai,.international-nav-ul a>.international-ai{
+	float:right;
+	width:7px;
+	height:4px;
+	margin-top:7px;
+	margin-left:5px;
+	margin-right:5px;
+	background:url(images/un_header_footer20160610.png) no-repeat -23px -264px;
+}
+
+.special-nav-ul li>i,.overseas-nav-ul li>i,.international-nav-ul li>i,
+.rentalcar-nav-ul li>i,.localfun-nav-ul li>i,.travel-nav-ul li>i{
+	position:absolute;
+	width:7px;
+	height:4px;
+	top:26px;
+	display:none;
+	background:url(images/un_header_footer20160610.png) no-repeat -23px -260px;
+}
+/*========特卖汇的小三角位置==========*/
+.special-li1>.special-i{left:18px;}
+.special-li2>.special-i{left:18px;}
+.special-li3>.special-i{left:18px;}
+.special-li4>.special-i{left:18px;}
+.special-li5>.special-i{left:10px;}
+.special-li6>.special-i{left:10px;}
+.special-li7>.special-i{left:18px;}
+/*========海外酒店的小三角位置==========*/
+.overseas-nav-li1>.overseas-nav-i{left:25px;}
+.overseas-nav-li2>.overseas-nav-i{left:50px;}
+.overseas-nav-li3>.overseas-nav-i{left:25px;}
+.overseas-nav-li4>.overseas-nav-i{left:32px;}
+.overseas-nav-li5>.overseas-nav-i{left:25px;}
+.overseas-nav-li6>.overseas-nav-i{left:12px;}
+/*========国际机票的小三角位置==========*/
+.international-nav-li1>.international-nav-i{left:40px;}
+.international-nav-li2>.international-nav-i{left:40px;}
+/*========国际租车的小三角位置==========*/
+.rentalcar-nav-li1>.rentalcar-nav-i{left:25px;}
+.rentalcar-nav-li2>.rentalcar-nav-i{left:34px;}
+.rentalcar-nav-li3>.rentalcar-nav-i{left:25px;}
+.rentalcar-nav-li4>.rentalcar-nav-i{left:34px;}
+.rentalcar-nav-li5>.rentalcar-nav-i{left:25px;}
+/*========当地玩乐的小三角位置==========*/
+.localfun-nav-li1>.localfun-nav-i{left:40px;}
+.localfun-nav-li2>.localfun-nav-i{left:40px;}
+/*========旅行服务的小三角位置==========*/
+.travel-nav-li>.travel-nav-i{left:25px;}
+/*========特卖汇外部导航hover==========*/
+.special-nav-ul>li:hover .special-lia{color:#3983e4;}
+.special-nav-ul>li:hover .special-i{display:block;}
+/*========海外酒店外部导航hover==========*/
+.overseas-nav-ul>li:hover .overseas-nav-lia{color:#3983e4;}
+.overseas-nav-ul>li:hover .overseas-nav-i{display:block;}
+/*========特价机票外部导航hover==========*/
+.international-nav-ul>li:hover .international-nav-lia{color:#3983e4;}
+.international-nav-ul>li:hover .international-nav-i{display:block;}
+/*========国际租车外部导航hover==========*/
+.rentalcar-nav-ul>li:hover .rentalcar-nav-lia{color:#3983e4;}
+.rentalcar-nav-ul>li:hover .rentalcar-nav-i{display:block;}
+/*========当地玩乐外部导航hover==========*/
+.localfun-nav-ul>li:hover .localfun-nav-lia{color:#3983e4;}
+.localfun-nav-ul>li:hover .localfun-nav-i{display:block;}
+/*========旅行服务外部导航hover==========*/
+.travel-nav-ul>li:hover .travel-nav-lia{color:#3983e4;}
+.travel-nav-ul>li:hover .travel-nav-i{display:block;}
+/*=====特卖汇等内容区域框架======*/
+.special-section,.overseas-div,.international-div,.rentalcar-div,.localfun-div{
+	width:1178px;
+	margin:auto;
+	background:#fff;
+	border-top:2px solid #3983e5;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+}
+.special-section,.overseas-div{height:390px;}
+.international-div{height:398px;}
+.rentalcar-div,.localfun-div{height:220px;}
+/*=====特卖汇等--内导航======*/
+.special-section-nav,.international-section-nav{width:1178px;height:45px;}
+.overseas-section-nav,.rentalcar-section-nav,.localfun-section-nav{width:948px;height:45px;}
+
+.special-section-ul,.international-section-ul{
+	width:1178px;
+	height:40px;
+	position:relative;
+	float:left;
+}
+.overseas-section-ul,.rentalcar-section-ul,.localfun-section-ul{
+	width:948px;
+	height:40px;
+	position:relative;
+	float:left;
+}
+.special-section-ul>li,.overseas-section-ul>li,.international-section-ul>li,.rentalcar-section-ul>li,
+.localfun-section-ul>li{
+	float:left;
+	line-height:24px;
+	margin-top:16px;
+	margin-right:30px;
+}
+
+.special-section-li,.overseas-section-li,.international-section-li,.rentalcar-section-li,.localfun-section-li{margin-left:19px;}
+
+.special-section-ul li>.special-section-a,.overseas-section-ul li>.overseas-section-a,
+.international-section-ul li>.international-section-a,.rentalcar-section-ul li>.rentalcar-section-a,
+.localfun-section-ul li>.localfun-section-a{
+	color:#3983e5;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.special-section-ul>a,.overseas-section-ul>a,.international-section-ul>a,.rentalcar-section-ul>a,.localfun-section-ul>a{
+	color:#3983e5;
+	float:right;
+	border:1px solid #fff;
+	border-radius:4px;
+	margin-top:17px;
+	margin-bottom:5px;
+	margin-right:19px;
+	padding:1px 4px 2px 5px;
+}
+.special-section-ul li>a:hover,.overseas-section-ul li>a:hover,.international-section-ul li>a:hover,
+.rentalcar-section-ul li>a:hover,.localfun-section-ul li>a:hover{background:#3983e5;color:#fff;border-radius:4px;}
+.special-section-ul>a:hover,.overseas-section-ul>a:hover,.international-section-ul>a:hover,
+.rentalcar-section-ul>a:hover,.localfun-section-ul>a:hover{border:1px solid #3983e5;border-radius:4px;}
+/*=====特卖汇内容区域======*/
+.specialSection{
+	width:1140px;
+	height:345px;
+	margin:auto;
+}
+/*=====特卖汇右侧======*/
+.specialSection-right,.overeas-section-right{
+	float:right;
+	width:220px;
+	height:330px;
+}
+.specialSection-right{background:url(images/sm2tmh_220x330.jpg) no-repeat;}
+.overeas-section-right{background:url(images/jb220x330.jpg) no-repeat;}
+.specialSection-right:hover{box-shadow: 0 0 2px 1px #e0e0e0;}
+/*=====特卖汇内容======*/
+.specialSection-left{
+	width:910px;
+	height:330px;
+	float:left;
+}
+/*=====特卖汇内容ul======*/
+.specialSection-left-ul1,.specialSection-left-ul2{
+	width:910px;
+	height:160px;
+	float:left;
+}
+.specialSection-left-ul2{margin-top:10px;}
+/*=====特卖汇内容li======*/
+.specialSection-left-ul1>li,.specialSection-left-ul2>li{
+	float:left;
+	width:220px;
+	height:160px;
+	margin-right:10px;
+	overflow:hidden;
+}
+/*=====特卖汇内容区域背景图片======*/
+.specialSection-div{
+	width:220px;
+	height:110px;
+	/*==所有元素在0.3内完成动作==*/
+	transition:all 0.3s;
+}
+/*==hover时div内的元素全部放大==*/
+.specialSection-div:hover{transform:scale(1.03,1.03);}
+.specialSection-left-div1{background:url(images/1.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div2{background:url(images/2.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div3{background:url(images/3.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div4{background:url(images/4.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div5{background:url(images/5.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div6{background:url(images/6.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div7{background:url(images/7.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-left-div8{background:url(images/8.jpg) no-repeat;background-size:100% 100%;}
+.specialSection-a>p{
+	width:210px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.specialSection-div>p,.specialSection-right>p{
+	float:left;
+	width:215px;
+	height:25px;
+	line-height:25px;
+	color:#fff;
+	padding-left:5px;
+	/*设置透明条*/
+	background:rgba(0,0,0,0.2);
+}
+.specialSection-div>p{margin-top:85px;}
+.specialSection-right>p{margin-top:305px;}
+.specialSection-a>p{padding-left:5px;line-height:20px;color:#666666;}
+.specialSection-a>.specialSection-left-div{
+	width:220px;
+	height:30px;
+}
+.specialSection-left-div>p{float:left;color:#999999;padding-left:5px;padding-top:13px;}
+.specialSection-left-div>div{float:right;padding-top:5px;margin-right:5px;}
+.specialSection-span1{vertical-align:5px;}
+.specialSection-span1,.specialSection-span3{color:#000;}
+.specialSection-span2{font-size:20px;color:#ff6600;}
+.specialSection-left-li:hover{box-shadow: 0 0 2px 1px #e0e0e0;}
+/*===========================海外酒店,国际租车左侧===============================*/
+.overseas-div-left,.rentalcar-div-left,.localfun-div-left{
+	width:229px;
+	float:left;
+	border-right:1px dashed #a3a3a3;
+}
+.overseas-div-left{height:390px;}
+.rentalcar-div-left,.localfun-div-left{height:220px;}
+/*===========================海外酒店,国际租车右侧===============================*/
+.overseas-div-right,.rentalcar-div-right,.localfun-div-right{width:948px;float:right;}
+.overseas-div-right{height:390px;}
+.rentalcar-div-right,.localfun-div-right{height:220px;}
+/*======================海外酒店,国际租车左侧链接div==========================*/
+.overseas-left-div,.rentalcar-left-div,.localfun-left-div{
+	width:189px;
+	padding:0 20px 30px;
+	margin:auto;
+}
+.overseas-left-div{height:360px;}
+.rentalcar-left-div,.localfun-left-div{height:220px;}
+.overseas-left-div dl,.rentalcar-left-div dl,.localfun-left-div dl{
+	width:187px;
+	height:180px;
+}
+.overseas-left-div dl>dt,.rentalcar-left-div dl>dt,.localfun-left-div dl>dt{
+	font-size:15px;
+	font-weight:600;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.overseas-left-div dl>dd,.rentalcar-left-div dl>dd,.localfun-left-div dl>dd{
+	line-height:30px;
+	width:189px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.overseas-left-dl dd>a,.rentalcar-left-dl dd>a,.localfun-left-dl dd>a{
+	color:#333;
+	text-align:center;
+}
+.localfun-left-dl dd>a{border-right:1px solid #ececec;padding-right:5px;}
+.overseas-left-dl dd>a:hover,.rentalcar-left-dl dd>a:hover,.localfun-left-dl dd>a:hover{color:#3983e5;}
+/*=================================海外酒店内容区====================================*/
+.overeas-section-div{
+	width:910px;
+	height:330px;
+	margin:auto;
+}
+/*==========海外酒店内容区右侧=========*/
+.overeas-section-right>a{
+	width:220px;
+	height:30px;
+	display:block;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	background:rgba(0,0,0,0.1);
+	margin-top:300px;
+}
+/*==========海外酒店内容区左侧=========*/
+.overeas-section-left{
+	width:680px;
+	height:330px;
+	float:left;
+}
+.overseassection-left-ul1,.overseassection-left-ul2{
+	width:680px;
+	height:160px;
+}
+.overseassection-left-ul1{margin-bottom:10px;}
+/*==========海外酒店内容区左侧 背景图=========*/
+.overseassection-left-li1>a{background:url(images/overseas1.jpg) no-repeat;}
+.overseassection-left-li2>a{background:url(images/overseas2.jpg) no-repeat;}
+.overseassection-left-li3>a{background:url(images/overseas3.jpg) no-repeat;}
+.overseassection-left-li4>a{background:url(images/overseas4.jpg) no-repeat;}
+.overseassection-left-li5>a{background:url(images/overseas5.jpg) no-repeat;}
+.overseassection-left-li6>a{background:url(images/overseas6.jpg) no-repeat;}
+.overseassection-left-ul1>li,.overseassection-left-ul2>li,
+.overseassection-left-ul1 li>a,.overseassection-left-ul2 li>a{
+	float:left;
+	width:220px;
+	height:160px;
+	margin-right:10px;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.overseassection-left-ul1 li>a,.overseassection-left-ul2 li>a{transition:all 0.3s;}
+/*==========海外酒店内容区左侧 背景图中间圆=========*/
+.overseassection-round{
+	width:112px;
+	height:112px;
+	background:rgba(0,0,0,0.5);
+	border-radius:50%;
+	margin-top:24px;
+	margin-left:54px;
+	position:relative;
+}
+.round-div{
+	width:92px;
+	height:76px;
+	position:absolute;
+	top:18px;
+	left:10px;
+	text-align:center;
+}
+.round-p1{
+	color:#fff;
+	font-size:20px;
+	font-weight:600;
+	line-height:30px;
+}
+.round-p2{
+	color:#fff;
+	font-size:13px;
+	font-weight:500px;
+	line-height:20px;
+	border-bottom:1px solid #afafaf;
+}
+.round-p3{
+	color:#fff;
+}
+.round-span1{
+	vertical-align:7px;
+}
+.round-span2{
+	font-size:18px;
+	font-weight:600px;
+	color:#ff6600;
+}
+.overseassection-left-ul1 li:hover{box-shadow:0 0 5px 0;}
+.overseassection-left-ul2 li:hover{box-shadow:0 0 5px 0;}
+.overseassection-round:hover{background:rgba(0,0,0,0.7);box-shadow:0 0 5px 1px;}
+.overseassection-left-ul1 li>a:hover{transform:scale(1.05,1.05);}
+.overseassection-left-ul2 li>a:hover{transform:scale(1.05,1.05);}
+.overseassection-left-ul1 li>a:hover .overseassection-round{background:rgba(0,0,0,0.7);box-shadow:0 0 5px 1px;}
+.overseassection-left-ul2 li>a:hover .overseassection-round{background:rgba(0,0,0,0.7);box-shadow:0 0 5px 1px;}
+/*=====================================国际特价机票左侧内容区========================================*/
+.international-section-div{
+	width:1140px;
+	height:338px;
+	margin:auto;
+}
+.international-div-right{
+	width:220px;
+	height:338px;
+	float:right;
+}
+.international-div-right{background:url(images/600o0a0000004myhpA98E.jpg) no-repeat;}
+.international-div-ul{
+	float:left;
+	width:910px;
+	height:106px;
+}
+.international-div-ul>li{
+	float:left;
+	width:220px;
+	height:106px;
+	margin-bottom:10px;
+	margin-right:10px;
+	background:#f8f8f8;
+}
+.international-div-ul>li:hover{box-shadow:0 0 5px 0;}
+.international-div-li>a{
+	display:block;
+	margin:auto;
+	width:194px;
+	height:78px;
+	padding:14px 13px 14px 13px;
+}
+.international-div-p1{
+	position:relative;
+	width:194px;
+	height:20px;
+}
+.international-div-p1>span{
+	font-size:12px;
+	height:20px;
+	color:#333;
+	line-height:20px;
+	margin-right:20px;
+}
+.international-div-i{
+	display:block;
+	width:12px;
+	height:7px;
+	position:absolute;
+	top:7px;
+	left:30px;
+	background:url(images/un_index_20170601.png) no-repeat -1px -116px;
+}
+.international-div-p2{
+	width:194px;
+	height:30px;
+	line-height:30px;
+	color:#999999;
+}
+.international-span-div{
+	float:left;
+	width:194px;
+	height:30px;
+}
+.international-span1{color:#666666;vertical-align:5px;}
+.international-span2{font-size:20px;color:#ff6600;font-weight:bold;}
+.international-span3{color:#666666;}
+.international-span-div button{
+	float:right;
+	width:58px;
+	height:27px;
+	color:#fff;
+	border:0;
+	outline:none;
+	background:#ffb000;
+	border-radius:4px;
+}
+.international-span-div button:hover{background:#f7ab01;}
+/*============================国际租车,当地玩乐================================*/
+.rentalcar-section-div,.localfun-section-div{
+	width:910px;
+	height:160px;
+	margin:auto;
+}
+.rentalcarsection-ul,.localfunsection-ul{float:left;width:910px;height:160px;}
+.rentalcarsection-li,.localfunsection-li{
+	float:left;
+	width:220px;
+	height:160px;
+	margin-right:10px;
+}
+.rentalcarsection-li>a,.localfunsection-li>a{
+	display:block;
+	width:220px;
+	height:160px;
+	overflow:hidden;
+	transition:all 0.3s;
+}
+.rentalcarsection-li a>img,.localfunsection-li a>img{
+	width:220px;
+	height:110px;
+}
+.localfunsection-li a>img:hover{transform:scale(1.05,1.05);}
+.rentalcarsection-p1,.localfunsection-p1{
+	color:#666666;
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+	margin-left:5px;
+	width:210px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.rentalcarsection-p2,.localfunsection-p2{
+	float:left;
+	color:#999999;
+	margin-top:7px;
+	margin-left:5px;
+}
+.rentalcarsection-div,.localfunsection-div{
+	float:left;
+	width:220px;
+	height:27px;
+}
+.rentalcarsection-div>div,.localfunsection-div>div{
+	float:right;
+	margin-right:5px;
+}
+.rentalcarsection-span1,.localfunsection-span1{color:#666666;vertical-align:5px;}
+.rentalcarsection-span2,.localfunsection-span2{font-size:20px;color:#ff6600;font-weight:bold;}
+.rentalcarsection-span3,.localfunsection-span3{color:#666666;}
+.rentalcarsection-li:hover,.localfunsection-li:hover{box-shadow:0 0 5px 0;}
+/*========旅行服务==========*/
+.travel-div{
+	width:1178px;
+	height:155px;
+	margin:auto;
+	border-top:2px solid #3983e5;
+}
+.travel-div-ul{
+	width:1178px;
+	height:145px;
+	margin-top:10px;
+}
+.travel-div-li{
+	float:left;
+	width:384px;
+	height:143px;
+	margin-right:10px;
+	border:1px solid #e0e0e0;
+	background:#fff;
+}
+.travel-li-div{
+	position:relative;
+	width:384px;
+	height:102px;
+	border-bottom:1px solid #e0e0e0;
+}
+.travel-li-i1,.travel-li-i2,.travel-li-i3{
+	display:block;
+	width:70px;
+	height:70px;
+	position:absolute;
+	top:16px;
+	left:40px;
+	border-radius:50%;
+}
+.travel-li-i1>i{
+	display:block;
+	width:47px;
+	height:34px;
+	position:absolute;
+	top:15px;
+	left:11px;
+	background:url(images/un_index_supply.png) no-repeat;
+}
+.travel-li-i1{background-color:#abcbf5;}
+.travel-li-i2>i{
+	display:block;
+	width:46px;
+	height:46px;
+	position:absolute;
+	top:12px;
+	left:12px;
+	background:url(images/un_index_supply.png) no-repeat 0 -38px;
+}
+.travel-li-i2{background-color:#cbe2b3;}
+.travel-li-i3>i{
+	display:block;
+	width:43px;
+	height:48px;
+	position:absolute;
+	top:12px;
+	left:13px;
+	background:url(images/un_index_supply.png) no-repeat -2px -89px;
+}
+.travel-li-i3{background-color:#f6dbb9;}
+.travel-li-divon{
+	float:right;
+	width:274px;
+	height:102px;
+}
+.travel-li-divon .travel-li-p1{
+	color:#333;
+	font-size:16px;
+	margin-top:10px;
+	margin-left:10px;
+	line-height:30px;
+}
+.travel-li-p{
+	line-height:15px;
+	margin-left:10px;
+}
+.travel-li-ul{
+	width:384px;
+	height:40px;
+}
+.travel-li-ul>li{
+	height:24px;
+	float:left;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.travel-li-li1>p,.travel-li-li2>p,.travel-li-li3>p,.travel-li-li4>p,
+.travel-li-li5>p,.travel-li-li6>p,.travel-li-li7>p,.travel-li-li8>p,
+.travel-li-li9>p,.travel-li-li10>p,.travel-li-li11>p{
+	height:24px;
+	line-height:24px;
+	padding-left:30px;
+	text-align:left;
+	border-right:1px dashed #a3a3a3;
+}
+.travel-li-li3>p,.travel-li-li8>p,.travel-li-li9>p,.travel-li-li10>p,.travel-li-li11>p{margin-left:8px;}
+.travel-li-li1>p,.travel-li-li2>p,.travel-li-li4>p{margin-left:20px;}
+.travel-li-li5>p,.travel-li-li6>p,.travel-li-li7>p{margin-left:20px;}
+.travel-li-li1>p,.travel-li-li2>p,.travel-li-li3>p,.travel-li-li4>p{background:url(images/supply_icon.png) no-repeat;}
+
+.travel-li-li1,.travel-li-li2,.travel-li-li3,.travel-li-li4,
+.travel-li-li5,.travel-li-li6,.travel-li-li7,.travel-li-li8{width:96px;}
+.travel-li-li9,.travel-li-li10,.travel-li-li11{width:128px;}
+
+.travel-li-ul>li:hover{background:#e2eeff;}
+.travel-li-div:hover{background:#e2eeff;}
+.travel-li-ii1,.travel-li-ii2,.travel-li-ii3,.travel-li-ii4,
+.travel-li-ii5,.travel-li-ii6,.travel-li-ii7{
+	float:left;
+	width:24px;
+	height:24px;
+	border-radius:50%;
+}
+.travel-li-ii1{margin-left:20px;background:url(images/24-japan.png)no-repeat;}
+.travel-li-ii2{margin-left:20px;background:url(images/24-korea.png)no-repeat;}
+.travel-li-ii3{margin-left:20px;background:url(images/24-USA.png)no-repeat;}
+.travel-li-ii4{margin-left:10px;background:url(images/24-Australia.png)no-repeat;}
+.travel-li-ii5{margin-left:20px;background:url(images/meiya.png)no-repeat;}
+.travel-li-ii6,.travel-li-ii7{margin-left:20px;background:url(images/pingan.png)no-repeat;}
+/*===================================合作优惠=====================================*/
+.cooperations{
+	width:1178px;
+	height:368px;
+	margin:auto;
+}
+.cooperation{
+	width:1178px;
+	height:370px;
+	margin:auto;
+	margin-top:28px;
+	background:#fff;
+	border:1px solid #e0e0e0;
+}
+.cooperation-nav{
+	width:1178px;
+	height:98px;
+	border-bottom:1px solid #e0e0e0;
+}
+.cooperation-nav-left{
+	float:left;
+	width:218px;
+	height:98px;
+	border-right:1px solid #e0e0e0;
+}
+.cooperation-nav-right{
+	float:right;
+	width:959px;
+	height:98px;
+}
+.cooperation-left1{
+	width:190px;
+	height:30px;
+	margin:auto;
+	margin-bottom:10px;
+}
+.cooperation-left1>span{
+	font-size:16px;
+	line-height:40px;
+}
+.cooperation-left1>a{
+	float:right;
+	color:#b6b6b6;
+	margin-top:12px;
+}
+.cooperation-left2,.cooperation-left2-ul{
+	width:218px;
+	height:58px;
+	float:left;
+}
+.cooperation-left2-ul>li{
+	margin-left:10px;
+	line-height:20px;
+}
+.cooperation-left2-ul li>a{color:#666666;}
+.cooperation-right1{
+	width:959px;
+	height:30px;
+}
+.cooperation-right1>p{
+	font-size:16px;
+	padding-top:10px;
+	padding-left:10px;
+}
+.cooperation-right2{
+	width:959px;
+	height:68px;
+	overflow:hidden;
+}
+.cooperation-right2-ul{
+	width:929px;
+	height:35px;
+	margin-top:15px;
+	margin-left:15px;
+}
+.cooperation-right2-ul>li{
+	float:left;
+	width:154px;
+	height:35px;
+	border-right:1px dashed #e0e0e0;
+}
+.cooperation-right2-li1>a,.cooperation-right2-li2>a,.cooperation-right2-li3>a,
+.cooperation-right2-li4>a,.cooperation-right2-li5>a,.cooperation-right2-li6>a{
+	display:block;
+	width:77px;
+	margin:auto;
+}
+.cooperation-right2-li1>a{height:28px;background:url(images/pic_partner.png) no-repeat;}
+.cooperation-right2-li2>a{height:24px;background:url(images/pic_partner.png) no-repeat 0 -35px;}
+.cooperation-right2-li3>a{height:20px;background:url(images/pic_partner.png) no-repeat 0 -70px;}
+.cooperation-right2-li4>a{height:17px;background:url(images/pic_partner.png) no-repeat 0 -104px;}
+.cooperation-right2-li5>a{height:26px;background:url(images/pic_partner.png) no-repeat 0 -133px;}
+.cooperation-right2-li6>a{height:28px;background:url(images/pic_partner.png) no-repeat 0 -165px;}
+.cooperation-section{
+	width:1148px;
+	height:244px;
+	padding:10px 15px;
+}
+.cooperation-section-dl1{
+	float:left;
+	width:1070px;
+	height:63px;
+	border-bottom:1px dashed #e0e0e0;
+}
+.cooperation-section-dl2,.cooperation-section-dl3,.cooperation-section-dl4,
+.cooperation-section-dl5,.cooperation-section-dl6{
+	float:left;
+	width:1070px;
+	height:34px;
+	line-height:34px;
+	border-bottom:1px dashed #e0e0e0;
+}
+.cooperation-section>h6{
+	font-size:14px;
+	float:left;
+	width:70px;
+	height:34px;
+	line-height:34px;
+}
+.cooperation-section-dl1>dd{line-height:30px;}
+.cooperation-section-dl1>dd,.cooperation-section-dl2>dd,.cooperation-section-dl3>dd,
+.cooperation-section-dl4>dd,.cooperation-section-dl5>dd,.cooperation-section-dl6>dd{
+	float:left;
+	width:84px;
+	padding-right:5px;
+}
+.cooperation-section-dl1 dd>a,.cooperation-section-dl2 dd>a,.cooperation-section-dl3 dd>a,
+.cooperation-section-dl4 dd>a,.cooperation-section-dl5 dd>a,.cooperation-section-dl6 dd>a{color:#333;}
+/*==============================================底部============================================*/
+.footer{
+	width:100%;
+	height:399px;
+	background:#fff;
+}
+.footer-div{
+	width:1180px;
+	height:208px;
+	margin:auto;
+}
+.footer-div1{
+	width:1180px;
+	height:147px;
+	margin:auto;
+	background:green;
+}
+.footer-div-ul,.footer-div-ul1{
+	float:left;
+	width:259px;
+	height:150px;
+	margin-top:29px;
+	border-right:1px solid #dedede;
+	background:#f3f3f3;
+}
+.footer-div-ul2{
+	float:left;
+	width:140px;
+	height:150px;
+	margin-top:29px;
+	background:#f3f3f3;
+}

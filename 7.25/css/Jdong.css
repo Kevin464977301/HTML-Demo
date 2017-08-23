@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+}
+form{
+	width:800px;
+	margin:auto;
+}
+.ipt-box{
+	width:798px;
+	height:105px;
+	border:1px solid #ddd;
+	margin-top:64px;
+}
+.ipt-box span{
+	width:170px;
+	height:105px;
+	margin-left:40px;
+	float:left;
+	line-height:105px;
+	font-size:26px;
+}
+.thre span{letter-spacing:27px;}
+.fur span{letter-spacing:10px;}
+.ipt-box input{
+	width:440px;
+	height:105px;
+	float:left;
+	font-size:28px;
+	line-height:105px;
+	border:0;
+}
+form p{text-align:right;font-size:28px;}
+form p a{color:#3388ff;}
+.ipt-box .small{width:300px;}
+.ipt-box a{
+	width:220px;
+	height:92px;
+	text-align:center;
+	line-height:92px;
+	margin:8px;
+	float:right;
+	background:#eee;
+	font-size:22px;
+}
+.iagree{
+	text-align:left;
+	font-size:22px;
+	line-height:22px;
+	margin:70px 0;
+}
+form>input{
+	width:798px;
+	height:105px;
+	background-image:linear-gradient(to top,#e92121,#ee2222 70%);
+	color:#fff;
+	font-size:32px;
+}
+#ckbox{
+	width:22px;
+	height:22px;
+	float:left;
+}

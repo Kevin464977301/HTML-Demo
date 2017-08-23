@@ -1,0 +1,744 @@
+*{margin:0;padding:0;}
+html,body{width:100%;}
+li{list-style:none;}
+a{text-decoration:none;}
+input{border:0;outline:none;}
+a img{border:0;}
+html,body{width:100%;}
+body{font-size:14px;}
+/*======================头部导航=====================*/
+.nav{
+	width:100%;
+	height:78px;
+	background:#ffffff;
+	box-shadow:0 5px 10px 5px #9e9e9e;
+}
+.nav>a{
+	width:310px;
+	height:78px;
+	position:absolute;
+	left:195px;
+	background:url(images/logo.png) no-repeat;
+}
+.nav ul{
+	width:1200px;
+	height:78px;
+	margin-left:568px;
+}
+.index,.wx-school,.open-school,.intel-school,.yx-school,.game{
+	height:78px;
+	float:left;
+}
+.index:hover,.wx-school:hover,.open-school:hover,
+.intel-school:hover,.yx-school:hover,.game:hover{
+	background-image:url(images/nav-on.png);
+}
+.index{
+	width:98px;
+	background:url(images/nav.png) no-repeat;
+}
+.wx-school{
+	width:122px;
+	background:url(images/nav.png) no-repeat -100px;
+}
+.open-school{
+	width:144px;
+	background:url(images/nav.png) no-repeat -224px;
+}
+.intel-school{
+	width:118px;
+	background:url(images/nav.png) no-repeat -370px;
+}
+.yx-school{
+	width:122px;
+	background:url(images/nav.png) no-repeat -490px;
+}
+.game{
+	width:122px;
+	background:url(images/nav.png) no-repeat -614px;
+}
+/*======================搜索登录=====================*/
+.searchbox{
+	width:160px;
+	height:78px;
+	float:left;
+}
+.searchbox>a{
+	float:right;
+	width:80px;
+	height:78px;
+	text-align:center;
+}
+.searchbox>a img{
+	width:32px;
+	display:block;
+	margin:16px auto 2px;
+}
+.searchbox>a:hover{
+	color:blue;
+}
+.search{
+	width:80px;
+	height:78px;
+	float:left;
+	position:relative;
+}
+.search>a{
+	width:80px;
+	height:30px;
+	border-right:1px solid #ccc;
+	background:url(images/search.png) no-repeat center;
+	display:block;
+	margin-top:25px;
+}
+.search>a i{
+	position:absolute;
+	width:11px;
+	height:7px;
+	top:65px;
+	left:34.5px;
+	background:url(images/top.png);
+	display:none;
+}
+.search:hover>a i{
+	display:block;
+}
+.search a:hover{
+	background:url(images/search-1.png) no-repeat center;
+}
+.search-select{
+	width:356px;
+	height:36px;
+	padding:9px;
+	position:absolute;
+	background:#fff;
+	left:-200px;
+	top:78px;
+	border-top:1px solid orange;
+	display:none;
+}
+.search:hover .search-select{
+	display:block;
+}
+.search-select input{
+	float:left;
+	width:282px;
+	height:34px;
+	line-height:34px;
+	padding-left:10px;
+	border:1px solid #ccc;
+	border-right:0;
+}
+.search-select  a{
+	width:62px;
+	height:36px;
+	float:left;
+	background:orange;
+	color:#fff;
+	text-align:center;
+	line-height:36px;
+}
+/*======================背景图区域=====================*/
+.bgimg{
+	width:1439px;
+	height:605px;
+	margin:auto;
+}
+.bgimg .bigimg{
+	width:1439px;
+	height:358px;
+	background:url(images/now.png) no-repeat;
+}
+.bgimg .broadcast{
+	width:1027px;
+	height:248px;
+	margin:auto;
+	background:url(images/live-bg.png) no-repeat right 0 bottom 0;
+}
+.bgimg .broadcast #herald{
+	width:1027px;
+	height:30px;
+	background:url(images/live-title.png) no-repeat;
+}
+.bgimg #subs,#subs #leftb,#subs #substance,#subs #rightb{
+	height:218px;
+	float:left;
+}
+#subs #leftb,#subs #rightb{
+	width:26px;
+}
+#subs #leftb a,#subs #rightb a{
+	width:26px;
+	height:48px;
+	float:left;
+	margin-top:85px;
+}
+#subs #leftb a{
+	background:url(images/sliders-btn.png) no-repeat 0 -48px;
+}
+#subs #leftb a:active{
+	background:url(images/sliders-btn.png) no-repeat;
+}
+#subs #rightb a{
+	background:url(images/sliders-btn.png) no-repeat 0 -144px;
+}
+#subs #rightb a:active{
+	background:url(images/sliders-btn.png) no-repeat 0 -96px;
+}
+/*======================直播预告中间区域=====================*/
+#subs #substance{
+	width:975px;
+	height:218px;
+	float:left;
+}
+#subs #substance #pimg{
+	width:226px;
+	height:150px;
+	margin-left:20px;
+	margin-top:30px;
+	float:left;
+}
+.wisdom{
+	width:715px;
+	height:195px;
+	position:relative;
+	margin-left:246px;
+}
+.wisdom h1{
+	width:715px;
+	margin-left:20px;
+	margin-top:15px;
+	line-height:45px;
+}
+.wisdom .tim{
+	height:12px;
+	color:#888888;
+	padding-left:15px;
+	line-height:12px;
+	margin-top:6px;
+	margin-bottom:10px;
+	background:url(images/icons.png) no-repeat 0 -6px;
+}
+.wisdom p{
+	margin-left:20px;
+	line-height:20px;
+}
+/*======================中间区域=====================*/
+.among{
+	position:absolute;
+	width:100%;
+	height:2073px;
+	border-top:1px solid #f2f1ef;
+	background:#d6dae2;
+}
+/*======================中间课程区域=====================*/
+.among .section{
+	position:relative;
+	width:1064px;
+	height:2073px;
+	margin:auto;
+}
+/*======================热门,精品课程等=====================*/
+.section .course{
+	width:780px;
+	height:2053px;
+	margin-top:20px;
+	float:left;
+}
+/*======================热门课程=====================*/
+.hot,.special{
+	width:780px;
+	height:353px;
+	background:#f2f1ef;
+	overflow:hidden;
+}
+/*==标题==*/
+.titles,.titlea,.titleb{
+	font-size:20px;
+	height:30px;
+	padding-left:30px;
+	margin-left:20px;
+	font-weight:500;
+	margin-top:20px;
+	float:left;
+}
+.titles{background:url(images/icon-lesson.png) left center no-repeat;}
+.titlea{background:url(images/icon_text.png) left center no-repeat;}
+.titleb{background:url(images/icon-phone.png) left center no-repeat;}
+/*==更多链接==*/
+.more{
+	float:right;
+	line-height:30px;
+	padding-right:20px;
+	padding-top:20px;
+	color:#888888;
+}
+/*==ul的大小==*/
+.hot_list,.special_list{
+	width:740px;
+	height:273px;
+	float:left;
+	margin-top:20px;
+	margin:15px 20px 20px;
+}
+/*==li的大小==*/
+.hot_list li,.special_list li{
+	float:left;
+	width:226px;
+	height:273px;
+	background:#ffffff;
+}
+/*==li的左边距(中间和右边)==*/
+.listtwo,.listthree{margin-left:31px;}
+/*==图片的大小==*/
+.listone a img{width:226px;height:160px;float:left;border-bottom:3px solid #1fc0ef;}
+.listtwo a img{width:226px;height:160px;float:left;border-bottom:3px solid #f6a544;}
+.listthree a img{width:226px;height:160px;float:left;border-bottom:3px solid #8cbe00;}
+.desc{
+	padding:10px 10px 11px;
+}
+.desc a{color:#000000;line-height:30px;padding-left:5px;}
+.desc a:hover{color:#17b8e6;}
+.desc p {color:#888888;text-decoration:none;padding-left:5px;padding-top:5px;}
+/*======================专题课程=====================*/
+.course .special{
+	height:353px;
+	margin-top:20px;
+	background:#f2f1ef;
+	overflow:hidden;
+}
+/*======================干货分享=====================*/
+.course .share{
+	height:498px;
+	margin-top:20px;
+	background:#f2f1ef;
+}
+.share_li1,.share_li2,.share_li3{
+	width:740px;
+	height:126px;
+	float:left;
+	background:#ffffff;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.share_li1{
+	margin-top:10px;
+}
+.share_li1 a #share_img,.share_li2 a #share_img,.share_li3 a #share_img{
+	width:122px;
+	height:86px;
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+}
+.share_div{
+	width:485px;
+	height:86px;
+	position:relative;
+	margin-left:142px;
+}
+.share_div h1{
+	width:500px;
+	font-size:18px;
+	margin-left:20px;
+	margin-top:5px;
+	line-height:45px;
+}
+.share_div h1 a{color:#000000;}
+.share_div .share_tim{
+	height:12px;
+	color:#888888;
+	padding-left:15px;
+	line-height:12px;
+	margin-bottom:8px;
+	background:url(images/icons.png) no-repeat 0 -6px;
+}
+.share_div p{
+	margin-left:20px;
+	line-height:20px;
+}
+/*======================精品课程=====================*/
+.course .picked{
+	height:789px;
+	margin-top:20px;
+	background:#f2f1ef;
+}
+.picked_list{
+	width:780px;
+	height:734px;
+	float:left;
+}
+.lione,.litwo,.lithree,.lifour{
+	width:350px;
+	height:347px;
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+.lione,.lithree{margin-left:20px;}
+.ul-title{
+	width:319px;
+	height:24px;
+	float:left;
+	font-size:16px;
+	padding-left:30px;
+	margin-bottom:20px;
+}
+#chanpin{
+	color:#9dddee;
+	background:url(images/bout-title-bg.png) no-repeat;
+}
+#yxiao{
+	color:#f3d3aa;
+	background:url(images/bout-title-bg.png) no-repeat 0 -24px;
+}
+#jishu{
+	color:#f7bc8f;
+	background:url(images/bout-title-bg.png) no-repeat 0 -48px;
+}
+#suzhi{
+	color:#c9dd8f;
+	background:url(images/bout-title-bg.png) no-repeat 0 -72px;
+}
+.lione a img,.litwo a img,.lithree a img,.lifour a img{
+	width:350px;height:160px;float:left;margin-bottom:10px;
+}
+/*==更多链接==*/
+.mores{
+	float:right;
+	font-size:12px;
+	line-height:40px;
+	color:#888888;
+}
+.picked-title{
+	color:#000000;
+	line-height:30px;
+}
+.lione p,.litwo p,.lithree p,.lifour p{color:#888888;line-height:20px;}
+.lione ul,.litwo ul,.lithree ul,.lifour ul{margin-top:10px;}
+.lione ul li,.litwo ul li,.lithree ul li,.lifour ul li{
+	line-height:25px;
+}
+.lione ul li a,.litwo ul li a,.lithree ul li a,.lifour ul li a{color:#000000;}
+/*======================右边排行榜区域=====================*/
+.righttop{
+	width:266px;
+	height:2053px;
+	margin-left:18px;
+	margin-top:20px;
+	float:left;
+}
+/*======================排行榜=====================*/
+.righttop .ranking{
+	width:266px;
+	height:1164px;
+	background:#fcfafb;
+	float:left;
+}
+/*======================腾讯大学介绍=====================*/
+.present{
+	width:266px;
+	height:397px;
+	background:#fcfafb;
+	margin-top:1165px;
+	position:relative;
+}
+/*======================联系我们=====================*/
+.righttop .relation{
+	width:266px;
+	height:490px;
+	background:#fcfafb;
+	margin-top:1px;
+	float:left;
+}
+/*======================排行=====================*/
+.rankbox{
+	width:226px;
+	height:34px;
+	background:url(images/rank-tab-gray-bg.png);
+	background-size:100% 100%;
+	margin:17px;
+	margin-top:60px;
+	padding:1px 2px;
+}
+.rankbox li a{
+	float:left;
+	height:32px;
+	width:112px;
+	text-align:center;
+	line-height:32px;
+}
+.rankhot a{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	color:#000000;
+}
+.ranknew a{
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	color:#000000;
+}
+/*======================单个排行图============================*/
+.ranklist{
+	width:266px;
+	height:1070px;
+}
+.rankli{
+	width:266px;
+	height:160px;
+	margin-bottom:20px;
+}
+#nubone,#nubtwo,#nubthree,#nubfour,#nubfive{
+	width:226px;
+	height:160px;
+	position:relative;
+	margin-left:20px;
+}
+#nubone{background:url(images/1452663224623.jpg) no-repeat;}
+#nubtwo{background:url(images/1452663224623.jpg) no-repeat;}
+#nubthree{background:url(images/1452663224623.jpg) no-repeat;}
+#nubfour{background:url(images/1452663224623.jpg) no-repeat;}
+#nubfive{background:url(images/1452663224623.jpg) no-repeat;}
+.ranklis{
+	width:226px;
+	height:26px;
+	position:relative;
+	margin-left:20px;
+	margin-bottom:5px;
+}
+.top,.tops{
+	width:226px;
+	height:26px;
+	position:absolute;
+	bottom:0;
+}
+.top{color:#ffffff;}
+.tops{color:#000000;}
+.top{background:rgba(0,0,0,0.1);}
+.top>em,.tops>em{
+	width:26px;
+	height:26px;
+	font-size:16px;
+	line-height:26px;
+	text-align:center;
+	float:left;
+	color:#ffffff;
+}
+.tops>em{
+	background:#9fd15a;
+}
+#nubone .top>em{background:#e2291c;}
+#nubtwo .top>em{background:#ec5a2e;}
+#nubthree .top>em{background:#f6a544;}
+#nubfour .top>em{background:#ec5a2e;}
+#nubfive .top>em{background:#f6a544;}
+.top>span,.tops>span{
+	line-height:26px;
+	text-align:center;
+	font-size:12px;
+	padding-left:5px;
+}
+/*======================腾讯大学介绍=====================*/
+.present i{
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:18px;
+	left:121px;
+	z-index:2;
+	background:url(images/icon-mark.png) no-repeat;
+}
+.present img{
+	width:226px;
+	height:160px;
+	margin-top:30px;
+	margin-left:20px;
+}
+.present div{
+	width:226px;
+	height:200px;
+	margin-left:20px;
+}
+.present div h2{
+	line-height:40px;
+	font-weight:100;
+}
+.present div p{
+	line-height:24px;
+}
+/*======================联系我们=====================*/
+.relation p{
+	width:226px;
+	height:26px;
+	float:left;
+	line-height:30px;
+	margin-left:20px;
+}
+.relation p a{color:#000000;}
+.flunk{
+	width:200px;
+	height:120px;
+	background:#d4d4d4;
+	margin-left:33px;
+	margin-top:20px;
+	float:left;
+}
+.flunk p{
+	width:156px;
+	font-size:30px;
+	margin-top:10px;
+	text-align:center;
+}
+.flunk p a{
+	width:156px;
+	height:43px;
+	display:block;
+	line-height:43px;
+	color:#fff;
+	font-size:26px;
+	background:#343434;
+}
+/*======================手机看直播=====================*/
+.watch{
+	position:relative;
+	top:-2053px;
+	right:-1344px;
+	width:120px;
+	height:166px;
+	background:#ffffff;
+}
+.watch a{
+	display:block;
+	width:120px;
+	height:120px;
+	margin-left:-4px;
+	background:url(images/qr.jpg) no-repeat;
+}
+.watch p{
+	margin-left:4px;
+	padding-top:5px;
+	line-height:14px;
+	color:#888888;
+}
+/*======================底部=====================*/
+#bottoms{
+	position:relative;
+	top:2073px;
+	width:100%;
+	height:518px;
+}
+/*======================底部彩色线=====================*/
+.line{
+	width:100%;
+	height:3px;
+	position:relative;
+	border-bottom:1px solid #ffffff;
+}
+.line i{
+	position:absolute;
+	top:0;
+	width:25%;
+	height:3px;
+}
+.line .blue{
+	left:0;
+	background-color:#1fc0ef;
+}
+.line .yellow{
+	left:25%;
+	background-color:#f6a544;
+}
+.line .green{
+	left:50%;
+	background-color:#8cbe00;
+}
+.line .orange{
+	left:75%;
+	background-color:#ff6c00;
+}
+/*======================底部开放平台=====================*/
+.partner{
+	height:386px;
+	background:#f6f6f6;
+}
+.partner .linke{
+	width:1064px;
+	height:386px;
+	margin:auto;
+}
+.part{
+	width:797px;
+	height:386px;
+	float:left;
+}
+.linke .part h3{
+	width:100px;
+	font-size:16px;
+	line-height:30px;
+	padding-top:20px;
+	padding-left:20px;
+}
+/*======================底部合作伙伴=====================*/
+.linke .part .open{
+	width:797px;
+	height:160px;
+	float:left;
+	margin-bottom:15px;
+}
+.open a{
+	float:left;
+	line-height:30px;
+	margin:5px 35px 15px 35px;
+}
+.open a p{color:#000;}
+.open a img{
+	width:80px;
+	height:30px;
+}
+.partlink{
+	width:797px;
+	margin-top:10px;
+}
+.partlink a{
+	margin-right:30px;
+	margin-left:35px;
+	color:#3f3f3f;
+}
+/*======================底部微博和关注=====================*/
+.linkrig{
+	width:105px;
+	height:140px;
+	float:left;
+	padding-top:20px;
+	padding-left:10px;
+}
+.linkrig h3{
+	line-height:30px;
+}
+.linkrig a{
+	width:105px;
+	height:30px;
+	display:block;
+}
+.linkrig a img{
+	width:105px;
+	height:30px;
+}
+/*======================底部版权所有=====================*/
+.copyright{
+	height:128px;
+	background:#bababa;
+}
+.copyright p{
+	font-size:12px;
+	text-align:center;
+	line-height:25px;
+}
+.copyright .xieyi{
+	font-size:14px;
+	padding-top:30px;
+}
+.copyright .xieyi a{
+	color:#000000;
+	padding:0 10px;
+}

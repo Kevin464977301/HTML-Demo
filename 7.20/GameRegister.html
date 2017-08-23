@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>网络游戏注册</title>
+		<style>
+			label,label a{
+				font-size:14px;
+			}
+			.gameRegister{
+				width:350px;
+				height:450px;
+				background-color:#fafcfc;
+				margin:auto;
+			}
+			div input{
+				margin-top:20px;
+				margin-left:20px;
+			}
+			input{
+				width:300px;
+				height:40px;
+			}
+			a{
+				text-decoration:none;
+				color:#406eba;
+			}
+			lab{
+				margin-left:110;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="post">
+			<div class="gameRegister">
+				<div class="emial">
+					<input placeholder="常用邮箱地址" />
+				</div>
+				<label for="agree"><a name="lab" href="#">没有邮箱?注册网易邮箱</a></label>
+				<div class="install">
+					<input placeholder="设置密码" />
+				</div>
+				<div class="installPW">
+					<input placeholder="确认密码" />
+				</div>
+				<div class="proving">
+					<input placeholder="验证码" style="width:160px" />
+					<img src="images/yz.png" style="width:134px; height:40px;" align="center">
+				</div>
+				<div class="registerBT">
+					<input type="button" style="background-color:blue" value="立即注册" />
+				</div>
+				<input type="checkbox" name="check" style="width:14px; height:14px;" />
+				<label for="agree">我同意
+					<a href="#">"服务条款"</a>和
+					<a href="#">"网络游戏用户隐私权保护和个人信息利用政策"</a>
+				</label>
+			</div>
+		</form>
+	</body>
+</html>
